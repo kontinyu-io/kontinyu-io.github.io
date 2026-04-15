@@ -1,0 +1,25 @@
+{
+  "name": "kontinyu.io",
+  "version": "1.0.0",
+  "description": "Website for kontinyu.io, built with Vite and Tailwind CSS for deployment on GitHub Pages or Cloudflare Pages.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "kontinyu.io",
+    "github-pages",
+    "cloudflare-pages",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "Kontinyu",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "tailwindcss": "^4.2.2",
+    "vite": "^7.1.7"
+  }
+}
