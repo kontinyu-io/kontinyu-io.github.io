@@ -1,5 +1,6 @@
 const { defineConfig } = require("vite");
 const tailwindcss = require("@tailwindcss/vite").default;
+const path = require("node:path");
 
 module.exports = defineConfig({
   root: "src",
@@ -14,7 +15,7 @@ module.exports = defineConfig({
     port: 4321,
   },
   build: {
-    outDir: "../dist",
+    outDir: path.resolve(__dirname, "docs"),
     emptyOutDir: true,
   },
 });

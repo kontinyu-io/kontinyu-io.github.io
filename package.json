@@ -1,7 +1,7 @@
 {
   "name": "kontinyu.io",
   "version": "1.0.0",
-  "description": "Website for kontinyu.io, built with Vite and Tailwind CSS for deployment on GitHub Pages or Cloudflare Pages.",
+  "description": "Website for kontinyu.io, built with Vite and Tailwind CSS for GitHub Pages branch deployment or Cloudflare Pages.",
   "private": true,
   "scripts": {
     "dev": "vite",
